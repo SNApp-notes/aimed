@@ -32,7 +32,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "npm --workspace=aimed-example run",
+    "example": "npm --workspace=aimed-example exec --",
     "clean": "del-cli lib",
     "prepare": "bob build",
     "typecheck": "tsc",
@@ -69,6 +69,7 @@
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react-native": "^5.0.0",
     "jest": "^30.2.0",
     "prettier": "^3.7.4",
     "react": "19.2.3",
